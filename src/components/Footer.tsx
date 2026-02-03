@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Linkedin, Youtube, Phone, Mail } from 'lucide-react';
-import bpLogo from '@/assets/bp-logo.png';
+import bpLogo from '@/assets/bp-logo-footer.svg';
 
 const footerLinks = {
   curso: {
@@ -23,7 +23,7 @@ const footerLinks = {
     links: [
       { label: 'Fale Conosco', href: '#contato' },
       { label: 'educacao@bp.org.br', href: 'mailto:educacao@bp.org.br' },
-      { label: '(11) 3505-5265', href: 'tel:+551135055265' },
+      { label: '(11) 3505-4980', href: 'tel:+551135054980' },
     ],
   },
 };
@@ -53,11 +53,11 @@ const Footer = () => {
             </p>
             <div className="space-y-3">
               <a 
-                href="tel:+551135055265" 
+                href="tel:+551135054980" 
                 className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                (11) 3505-5265
+                (11) 3505-4980
               </a>
               <a 
                 href="mailto:educacao@bp.org.br" 

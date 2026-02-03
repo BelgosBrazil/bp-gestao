@@ -100,11 +100,11 @@ const FAQContactSection = () => {
                 educacao@bp.org.br
               </a>
               <a 
-                href="tel:+551135055265" 
+                href="tel:+551135054980" 
                 className="flex items-center gap-2 hover:text-primary transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                (11) 3505-5265
+                (11) 3505-4980
               </a>
               <a 
                 href="https://wa.me/5511996528861" 

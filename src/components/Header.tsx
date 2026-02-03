@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import bpLogo from '@/assets/bp-logo.png';
+import bpLogo from '@/assets/bp-logo.svg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,11 +42,11 @@ const Header = () => {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a 
-              href="tel:+551135055265" 
+              href="tel:+551135054980" 
               className="flex items-center gap-2 text-secondary font-semibold hover:text-secondary-hover transition-colors"
             >
               <Phone className="w-4 h-4" />
-              (11) 3505-5265
+              (11) 3505-4980
             </a>
             <Button 
               variant="outline" 
@@ -88,11 +88,11 @@ const Header = () => {
                 </a>
               ))}
               <a 
-                href="tel:+551135055265" 
+                href="tel:+551135054980" 
                 className="flex items-center gap-2 text-secondary font-semibold py-2"
               >
                 <Phone className="w-4 h-4" />
-                (11) 3505-5265
+                (11) 3505-4980
               </a>
               <Button 
                 className="w-full rounded-full bg-primary text-primary-foreground hover:bg-primary-dark mt-2"
