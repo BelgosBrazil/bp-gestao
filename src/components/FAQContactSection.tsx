@@ -183,7 +183,7 @@ const FAQContactSection = () => {
 
               <Button
                 type="submit"
-                className="w-full bg-secondary hover:bg-secondary-hover text-secondary-foreground rounded-full py-6 text-base font-semibold transition-all duration-300"
+                className="w-full bg-primary hover:bg-primary-dark text-primary-foreground rounded-full py-6 text-base font-semibold transition-all duration-300"
               >
                 <Send className="w-5 h-5 mr-2" />
                 Enviar Minha Solicitação

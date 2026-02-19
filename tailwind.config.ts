@@ -83,9 +83,9 @@ export default {
         "card": "5px 5px 15px -5px rgba(0, 0, 0, 0.15)",
         "card-hover": "8px 8px 25px -5px rgba(0, 0, 0, 0.2)",
         "header": "0 2px 10px rgba(0, 0, 0, 0.1)",
-        // Amarelo BP (RGB: 255, 202, 5)
-        "cta": "0 4px 15px rgba(255, 202, 5, 0.4)",
-        "cta-hover": "0 6px 20px rgba(255, 202, 5, 0.5)",
+        // Verde-água Faculdade BP (RGB: 52, 182, 185)
+        "cta": "0 4px 15px rgba(52, 182, 185, 0.4)",
+        "cta-hover": "0 6px 20px rgba(52, 182, 185, 0.5)",
       },
       keyframes: {
         "accordion-down": {
