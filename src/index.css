@@ -5,21 +5,36 @@
 @tailwind utilities;
 
 /* BP Pós-Graduação Design System */
+/* 
+ * Manual de Marca - Faculdade BP
+ * 
+ * Cores Principais:
+ * - Verde-água Faculdade BP: RGB(52, 182, 185) → HSL(179, 56%, 46%)
+ * - Roxo Faculdade BP: RGB(140, 65, 145) → HSL(296, 38%, 41%)
+ * 
+ * Cores Secundárias:
+ * - Amarelo Escuro BP: RGB(252, 178, 76) → HSL(35, 97%, 64%)
+ * - Amarelo BP: RGB(255, 202, 5) → HSL(47, 100%, 51%)
+ * - Rosa BP: RGB(240, 88, 125) → HSL(345, 84%, 64%)
+ * - Verde limão BP: RGB(191, 215, 48) → HSL(69, 68%, 52%)
+ * - Verde escuro BP: RGB(46, 130, 126) → HSL(177, 48%, 35%)
+ * - Cinza BP: RGB(110, 110, 110) → HSL(0, 0%, 43%)
+ */
 
 @layer base {
   :root {
-    /* Primary - Purple */
-    --primary: 251 37% 45%;
+    /* Primary - Roxo Faculdade BP (RGB: 140, 65, 145) */
+    --primary: 296 38% 41%;
     --primary-foreground: 0 0% 100%;
-    --primary-dark: 251 47% 36%;
+    --primary-dark: 296 38% 32%;
     
-    /* Secondary - Coral/Orange CTA */
-    --secondary: 14 87% 64%;
+    /* Secondary - Amarelo BP (RGB: 255, 202, 5) - para CTAs */
+    --secondary: 47 100% 51%;
     --secondary-foreground: 0 0% 100%;
-    --secondary-hover: 14 87% 54%;
+    --secondary-hover: 47 100% 45%;
     
-    /* Tertiary - Turquoise/Teal */
-    --tertiary: 176 100% 37%;
+    /* Tertiary - Verde-água Faculdade BP (RGB: 52, 182, 185) */
+    --tertiary: 179 56% 46%;
     --tertiary-foreground: 0 0% 100%;
     
     /* Backgrounds */
@@ -33,10 +48,11 @@
     
     /* Muted */
     --muted: 0 0% 90%;
+    /* Cinza BP (RGB: 110, 110, 110) */
     --muted-foreground: 0 0% 43%;
     
-    /* Accent */
-    --accent: 251 37% 45%;
+    /* Accent - Roxo Faculdade BP */
+    --accent: 296 38% 41%;
     --accent-foreground: 0 0% 100%;
     
     /* Popover */
@@ -50,7 +66,8 @@
     /* Borders & Inputs */
     --border: 0 0% 85%;
     --input: 0 0% 85%;
-    --ring: 251 37% 45%;
+    /* Ring - Roxo Faculdade BP */
+    --ring: 296 38% 41%;
     
     /* Radius */
     --radius: 0.5rem;
@@ -58,26 +75,42 @@
     /* Sidebar */
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5% 26%;
-    --sidebar-primary: 251 37% 45%;
+    /* Sidebar Primary - Roxo Faculdade BP */
+    --sidebar-primary: 296 38% 41%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 0 0% 90%;
     --sidebar-accent-foreground: 0 0% 0%;
     --sidebar-border: 0 0% 85%;
-    --sidebar-ring: 251 37% 45%;
+    /* Sidebar Ring - Roxo Faculdade BP */
+    --sidebar-ring: 296 38% 41%;
     
     /* Custom Gradients */
-    --gradient-hero: linear-gradient(135deg, hsla(251, 47%, 36%, 0.85) 0%, hsla(251, 37%, 45%, 0.7) 100%);
-    --gradient-cta: linear-gradient(135deg, hsl(14, 87%, 64%) 0%, hsl(14, 87%, 54%) 100%);
-    --gradient-logo: linear-gradient(180deg, hsl(251, 37%, 45%) 0%, hsl(14, 87%, 64%) 100%);
+    /* Hero gradient - Roxo Faculdade BP */
+    --gradient-hero: linear-gradient(135deg, hsla(296, 38%, 32%, 0.85) 0%, hsla(296, 38%, 41%, 0.7) 100%);
+    /* CTA gradient - Amarelo BP */
+    --gradient-cta: linear-gradient(135deg, hsl(47, 100%, 51%) 0%, hsl(47, 100%, 45%) 100%);
+    /* Logo gradient - Roxo para Amarelo BP */
+    --gradient-logo: linear-gradient(180deg, hsl(296, 38%, 41%) 0%, hsl(47, 100%, 51%) 100%);
     
     /* Shadows */
     --shadow-card: 5px 5px 15px -5px rgba(0, 0, 0, 0.15);
     --shadow-card-hover: 8px 8px 25px -5px rgba(0, 0, 0, 0.2);
     --shadow-header: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+    /* Cores Secundárias do Manual de Marca (para uso futuro) */
+    /* Amarelo Escuro BP (RGB: 252, 178, 76) */
+    --bp-yellow-dark: 35 97% 64%;
+    /* Rosa BP (RGB: 240, 88, 125) */
+    --bp-pink: 345 84% 64%;
+    /* Verde limão BP (RGB: 191, 215, 48) */
+    --bp-lime: 69 68% 52%;
+    /* Verde escuro BP (RGB: 46, 130, 126) */
+    --bp-green-dark: 177 48% 35%;
   }
 
   .dark {
-    --primary: 251 37% 55%;
+    /* Roxo Faculdade BP - versão mais clara para dark mode */
+    --primary: 296 38% 55%;
     --primary-foreground: 0 0% 100%;
     --background: 0 0% 5%;
     --foreground: 0 0% 98%;
@@ -85,7 +118,8 @@
     --card-foreground: 0 0% 98%;
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 65%;
-    --accent: 251 37% 55%;
+    /* Accent - Roxo Faculdade BP - versão mais clara para dark mode */
+    --accent: 296 38% 55%;
     --accent-foreground: 0 0% 100%;
     --border: 0 0% 20%;
     --input: 0 0% 20%;
@@ -134,12 +168,14 @@
     @apply inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-full transition-all duration-300;
     background: var(--gradient-cta);
     color: hsl(var(--secondary-foreground));
-    box-shadow: 0 4px 15px rgba(243, 112, 82, 0.4);
+    /* Amarelo BP (RGB: 255, 202, 5) */
+    box-shadow: 0 4px 15px rgba(255, 202, 5, 0.4);
   }
 
   .btn-cta-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(243, 112, 82, 0.5);
+    /* Amarelo BP (RGB: 255, 202, 5) */
+    box-shadow: 0 6px 20px rgba(255, 202, 5, 0.5);
   }
 
   .btn-cta-secondary {
@@ -253,10 +289,12 @@
 
   @keyframes pulse-cta {
     0%, 100% {
-      box-shadow: 0 4px 15px rgba(243, 112, 82, 0.4);
+      /* Amarelo BP (RGB: 255, 202, 5) */
+      box-shadow: 0 4px 15px rgba(255, 202, 5, 0.4);
     }
     50% {
-      box-shadow: 0 4px 25px rgba(243, 112, 82, 0.6);
+      /* Amarelo BP (RGB: 255, 202, 5) */
+      box-shadow: 0 4px 25px rgba(255, 202, 5, 0.6);
     }
   }
 
