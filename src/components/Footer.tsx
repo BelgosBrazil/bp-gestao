@@ -3,25 +3,25 @@ import bpLogo from '@/assets/bp-logo-footer.svg';
 
 const footerLinks = {
   curso: {
-    title: 'O Curso',
+    title: 'O curso',
     links: [
-      { label: 'Sobre o Curso', href: '#sobre' },
-      { label: 'O Que Você Vai Aprender', href: '#competencias' },
+      { label: 'Sobre o curso', href: '#sobre' },
+      { label: 'O que você vai aprender', href: '#competencias' },
       { label: 'Inscreva-se', href: 'https://bpeducacao.lyceum.com.br/processo-seletivo/r/inscricao' },
     ],
   },
   educacao: {
-    title: 'BP Educação',
+    title: 'Faculdade BP',
     links: [
-      { label: 'Página do Curso', href: 'https://educacaoepesquisa.bp.org.br/cursos/gestao-de-qualidade-e-seguranca-do-paciente/' },
-      { label: 'Outros Cursos', href: 'https://educacaoepesquisa.bp.org.br/' },
+      { label: 'Página do curso', href: 'https://educacaoepesquisa.bp.org.br/cursos/gestao-de-qualidade-e-seguranca-do-paciente/' },
+      { label: 'Outros cursos', href: 'https://educacaoepesquisa.bp.org.br/' },
       { label: 'Sobre a BP', href: 'https://www.bp.org.br/' },
     ],
   },
   suporte: {
     title: 'Contato',
     links: [
-      { label: 'Fale Conosco', href: '#contato' },
+      { label: 'Fale conosco', href: '#contato' },
       { label: 'educacao@bp.org.br', href: 'mailto:educacao@bp.org.br' },
       { label: '(11) 3505-4980', href: 'tel:+551135054980' },
     ],
@@ -29,10 +29,10 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: Facebook, href: 'https://www.facebook.com/hospitalbp', label: 'Facebook' },
-  { icon: Instagram, href: 'https://www.instagram.com/hospitalbp/', label: 'Instagram' },
-  { icon: Linkedin, href: 'https://www.linkedin.com/company/hospitalbp/', label: 'LinkedIn' },
-  { icon: Youtube, href: 'https://www.youtube.com/hospitalbp', label: 'YouTube' },
+  { icon: Facebook, href: 'https://www.facebook.com/faculdadebp', label: 'Facebook' },
+  { icon: Instagram, href: 'https://www.instagram.com/faculdadebp/', label: 'Instagram' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/showcase/bp-educa-o-e-pesquisa/', label: 'LinkedIn' },
+  { icon: Youtube, href: 'https://www.youtube.com/@faculdadebp', label: 'YouTube' },
 ];
 
 const Footer = () => {
@@ -48,7 +48,7 @@ const Footer = () => {
               className="h-12 w-auto mb-6 brightness-0 invert"
             />
             <p className="text-primary-foreground/80 mb-6 max-w-sm">
-              Pós-Graduação em Gestão da Qualidade e Segurança do Paciente. Forme-se como líder 
+              Pós-Graduação em Gestão da Qualidade e Segurança do Paciente. Especialize-se como líder 
               para a excelência em saúde com quem é referência em gestão e qualidade.
             </p>
             <div className="space-y-3">
@@ -97,7 +97,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-primary-foreground/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-4">
-              <span className="text-primary-foreground/80 text-sm">Nos Acompanhe:</span>
+              <span className="text-primary-foreground/80 text-sm">Nos acompanhe:</span>
               <div className="flex gap-3">
                 {socialLinks.map((social) => (
                   <a
@@ -114,7 +114,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-primary-foreground/60 text-sm text-center md:text-right">
-              © 2026 BP - Beneficência Portuguesa de São Paulo. Todos os direitos reservados.
+              © 2026 BP - A Beneficência Portuguesa de São Paulo. Todos os direitos reservados.
             </p>
           </div>
         </div>

@@ -1,31 +1,31 @@
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
-import testimonial1 from '@/assets/testimonial-1.jpg';
-import testimonial2 from '@/assets/testimonial-2.jpg';
-import testimonial3 from '@/assets/testimonial-3.jpg';
 
 const testimonials = [
   {
     id: 1,
-    image: testimonial1,
-    name: 'Dr. Carlos Mendes',
-    specialty: 'Gestor de Qualidade - Hospital de Referência SP',
-    text: 'A pós-graduação em Gestão da Qualidade e Segurança do Paciente da BP transformou minha carreira. Aprendi não apenas metodologias de gestão, mas principalmente como implementar melhorias que impactam diretamente na segurança e experiência dos pacientes. Hoje me sinto preparado para liderar projetos estratégicos de qualidade.',
+    initials: 'MO',
+    avatarColor: 'bg-primary',
+    name: 'Dra. Marina Oliveira',
+    specialty: 'Gestora de qualidade — Hospital de Referência SP',
+    text: 'A pós-graduação em Gestão da Qualidade e Segurança do Paciente da Faculdade BP transformou minha carreira. Aprendi não apenas metodologias de gestão, mas principalmente como implementar melhorias que impactam diretamente na segurança e experiência dos pacientes. Hoje me sinto preparada para liderar projetos estratégicos de qualidade.',
     rating: 5,
   },
   {
     id: 2,
-    image: testimonial2,
+    initials: 'AP',
+    avatarColor: 'bg-secondary',
     name: 'Enf. Ana Paula Silva',
-    specialty: 'Coordenadora de Qualidade e Segurança',
-    text: 'O diferencial do curso é o corpo docente que atua diretamente em gestão da qualidade na BP. As aulas conectam teoria e prática de forma única. A formação me deu a segurança necessária para assumir a coordenação de qualidade e implementar melhorias contínuas nos processos.',
+    specialty: 'Coordenadora de qualidade e segurança',
+    text: 'O diferencial do curso é o corpo docente que atua diretamente em gestão da qualidade na Faculdade BP. As aulas conectam teoria e prática de forma única. A formação me deu a segurança necessária para assumir a coordenação de qualidade e implementar melhorias contínuas nos processos.',
     rating: 5,
   },
   {
     id: 3,
-    image: testimonial3,
-    name: 'Eng. Roberto Alves',
-    specialty: 'Consultor em Gestão da Qualidade em Saúde',
+    initials: 'RS',
+    avatarColor: 'bg-primary',
+    name: 'Dr. Ricardo Santos',
+    specialty: 'Consultor em gestão da qualidade em saúde',
     text: 'A modalidade EAD foi perfeita para minha rotina de trabalho. Consegui conciliar os estudos com meu emprego, e a qualidade do ensino superou minhas expectativas. O curso me preparou para oferecer consultoria em gestão da qualidade em organizações de saúde.',
     rating: 5,
   },
@@ -47,9 +47,9 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-light text-foreground">
-            Histórias de Quem Já{' '}
+            Histórias de quem já{' '}
             <span className="section-title-underline text-secondary font-semibold">
-              Se Formou
+              se especializou
             </span>
           </h2>
         </div>
@@ -63,11 +63,9 @@ const TestimonialsSection = () => {
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               <div className="flex items-center gap-4 mb-6">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-16 h-16 rounded-full object-cover"
-                />
+                <div className={`w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0 ${testimonial.avatarColor}`}>
+                  <span className="text-white font-bold text-lg">{testimonial.initials}</span>
+                </div>
                 <div>
                   <h4 className="font-bold text-foreground">{testimonial.name}</h4>
                   <p className="text-sm text-muted-foreground">{testimonial.specialty}</p>
@@ -91,11 +89,9 @@ const TestimonialsSection = () => {
         <div className="lg:hidden">
           <div className="testimonial-card max-w-lg mx-auto">
             <div className="flex items-center gap-4 mb-6">
-              <img
-                src={testimonials[currentIndex].image}
-                alt={testimonials[currentIndex].name}
-                className="w-16 h-16 rounded-full object-cover"
-              />
+              <div className={`w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0 ${testimonials[currentIndex].avatarColor}`}>
+                <span className="text-white font-bold text-lg">{testimonials[currentIndex].initials}</span>
+              </div>
               <div>
                 <h4 className="font-bold text-foreground">{testimonials[currentIndex].name}</h4>
                 <p className="text-sm text-muted-foreground">{testimonials[currentIndex].specialty}</p>

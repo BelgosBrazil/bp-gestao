@@ -40,11 +40,13 @@
     /* Backgrounds */
     --background: 0 0% 100%;
     --background-alt: 0 0% 90%;
-    --foreground: 0 0% 0%;
+    /* Cinza BP (RGB: 110, 110, 110) */
+    --foreground: 0 0% 43%;
     
     /* Cards */
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 0%;
+    /* Cinza BP (RGB: 110, 110, 110) */
+    --card-foreground: 0 0% 43%;
     
     /* Muted */
     --muted: 0 0% 90%;
@@ -57,7 +59,8 @@
     
     /* Popover */
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 0%;
+    /* Cinza BP (RGB: 110, 110, 110) */
+    --popover-foreground: 0 0% 43%;
     
     /* Destructive */
     --destructive: 0 84% 60%;

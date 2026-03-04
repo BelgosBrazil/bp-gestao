@@ -20,7 +20,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-white/90 mb-10 max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Forme-se como líder para a excelência em saúde. Uma formação completa que integra gestão, qualidade, segurança do paciente e ESG, preparando você para atuar de forma estratégica e inovadora no setor de saúde.
+            Especialize-se como líder para a excelência em saúde. Uma formação completa que integra gestão, qualidade, segurança do paciente e ESG, preparando você para atuar de forma estratégica e inovadora no setor de saúde.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
@@ -33,7 +33,7 @@ const HeroSection = () => {
               Inscreva-se!
             </a>
             <a href="#sobre" className="btn-cta-secondary">
-              Saiba Mais Sobre o Curso
+              Saiba mais sobre o curso
             </a>
           </div>
 

@@ -6,7 +6,7 @@ const CTASection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
-            Transforme Sua Carreira em Liderança e Gestão em Saúde
+            Transforme sua carreira em liderança e gestão em saúde
           </h2>
 
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-10 leading-relaxed">
@@ -47,7 +47,7 @@ const CTASection = () => {
               href="#contato" 
               className="btn-cta-secondary"
             >
-              Fale com Nosso Time
+              Fale com nosso time
             </a>
           </div>
         </div>

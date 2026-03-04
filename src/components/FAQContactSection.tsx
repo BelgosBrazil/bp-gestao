@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: 'O curso é reconhecido pelo MEC?',
-    answer: 'Sim! O curso é oferecido pela BP Educação e Pesquisa (Faculdade BP – Beneficência Portuguesa de São Paulo), reconhecida pelo MEC. Você receberá um diploma de especialista valorizado no mercado.',
+    answer: 'Sim! O curso é oferecido pela Faculdade BP - A Beneficência Portuguesa de São Paulo, reconhecida pelo MEC. Você receberá um diploma de especialista valorizado no mercado.',
   },
   {
     question: 'Como são as aulas?',
@@ -60,7 +60,7 @@ const FAQContactSection = () => {
           {/* FAQ Column */}
           <div>
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Dúvidas Frequentes
+              Dúvidas frequentes
             </h3>
             <p className="text-muted-foreground mb-8">
               Confira as respostas para as perguntas mais comuns sobre a Pós-Graduação em 
@@ -88,7 +88,7 @@ const FAQContactSection = () => {
           {/* Contact Form Column */}
           <div className="bg-background-alt rounded-2xl p-8 shadow-card">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Entre em Contato
+              Entre em contato
             </h3>
             
             <div className="flex flex-col gap-3 mb-6 text-muted-foreground">
@@ -120,7 +120,7 @@ const FAQContactSection = () => {
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                  Nome Completo
+                  Nome completo
                 </label>
                 <input
                   type="text"
@@ -186,7 +186,7 @@ const FAQContactSection = () => {
                 className="w-full bg-primary hover:bg-primary-dark text-primary-foreground rounded-full py-6 text-base font-semibold transition-all duration-300"
               >
                 <Send className="w-5 h-5 mr-2" />
-                Enviar Minha Solicitação
+                Enviar minha solicitação
               </Button>
             </form>
           </div>

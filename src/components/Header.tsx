@@ -7,8 +7,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { label: 'Sobre o Curso', href: '#sobre' },
-    { label: 'O Que Você Aprende', href: '#competencias' },
+    { label: 'Sobre o curso', href: '#sobre' },
+    { label: 'O que você aprende', href: '#competencias' },
     { label: 'Investimento', href: '#inscricao' },
     { label: 'Contato', href: '#contato' },
   ];

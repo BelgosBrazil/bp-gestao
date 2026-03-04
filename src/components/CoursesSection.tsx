@@ -3,32 +3,32 @@ import { Target, TrendingUp, Shield, BarChart, Users, Lightbulb } from 'lucide-r
 const competencies = [
   {
     icon: Target,
-    title: 'Identificação de Problemas',
+    title: 'Identificação de problemas',
     description: 'Desenvolva habilidades para identificar problemas e oportunidades de melhoria nos processos de saúde, utilizando metodologias estruturadas de análise.',
   },
   {
     icon: TrendingUp,
-    title: 'Implementação de Melhorias',
+    title: 'Implementação de melhorias',
     description: 'Aprenda a implementar melhorias nos processos de forma sistemática e eficaz, garantindo resultados sustentáveis e mensuráveis.',
   },
   {
     icon: Shield,
-    title: 'Segurança do Paciente',
+    title: 'Segurança do paciente',
     description: 'Analise e aprimore a segurança do paciente, implementando protocolos e práticas que reduzam riscos e aumentem a qualidade do cuidado.',
   },
   {
     icon: BarChart,
-    title: 'Gestão da Qualidade',
+    title: 'Gestão da qualidade',
     description: 'Domine ferramentas e metodologias de gestão da qualidade aplicadas ao setor de saúde, com foco em resultados e excelência operacional.',
   },
   {
     icon: Users,
-    title: 'Liderança Estratégica',
+    title: 'Liderança estratégica',
     description: 'Desenvolva competências de liderança para conduzir equipes multidisciplinares e promover transformações organizacionais.',
   },
   {
     icon: Lightbulb,
-    title: 'Consultoria em Gestão',
+    title: 'Consultoria em gestão',
     description: 'Adquira conhecimentos para desenvolver e aplicar projetos de melhoria e oferecer consultoria em gestão da qualidade em organizações de saúde.',
   },
 ];
@@ -39,9 +39,9 @@ const CoursesSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-light text-foreground">
-            O Que Você Vai{' '}
+            O que você vai{' '}
             <span className="section-title-underline text-secondary font-semibold">
-              Aprender
+              aprender
             </span>
           </h2>
           <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">

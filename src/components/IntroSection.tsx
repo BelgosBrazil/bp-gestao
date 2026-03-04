@@ -13,13 +13,13 @@ const features = [
   },
   {
     icon: Target,
-    label: 'Foco em Liderança',
+    label: 'Foco em liderança',
     description: 'Gestão estratégica',
   },
   {
     icon: Award,
-    label: 'Excelência em Saúde',
-    description: 'BP Educação',
+    label: 'Excelência em saúde',
+    description: 'Faculdade BP',
   },
 ];
 
@@ -29,13 +29,13 @@ const IntroSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-foreground mb-8">
-            Forme-se como Líder para a{' '}
-            <span className="text-secondary font-semibold">Excelência em Saúde</span>
+            Especialize-se como líder para a{' '}
+            <span className="text-secondary font-semibold">excelência em saúde</span>
           </h2>
 
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              A Pós-Graduação em Gestão da Qualidade e Segurança do Paciente, oferecida pela BP Educação e Pesquisa, 
+              A Pós-Graduação em Gestão da Qualidade e Segurança do Paciente, oferecida pela Faculdade BP, 
               é um curso EAD com 360 horas, voltado à formação de líderes para a excelência em saúde. O programa integra 
               conceitos de gestão, qualidade, segurança do paciente e ESG, preparando profissionais para atuar de forma 
               estratégica e inovadora no setor de saúde.
@@ -78,7 +78,7 @@ const IntroSection = () => {
               rel="noopener noreferrer"
               className="text-secondary hover:text-secondary-hover font-semibold underline transition-colors"
             >
-              Ver página completa do curso no site da BP →
+              Ver página completa do curso na Faculdade BP →
             </a>
           </div>
         </div>

@@ -3,23 +3,23 @@ import { Building2, Users, BrainCog, Award } from 'lucide-react';
 const features = [
   {
     icon: Building2,
-    title: 'Instituição de Referência em Saúde',
-    description: 'Aprenda com o respaldo da BP - Beneficência Portuguesa de São Paulo, uma das mais importantes instituições de saúde do Brasil, reconhecida pela excelência em gestão, qualidade e segurança do paciente.',
+    title: 'Instituição de referência em saúde',
+    description: 'Aprenda com o respaldo da BP - A Beneficência Portuguesa de São Paulo, uma das mais importantes instituições de saúde do Brasil, reconhecida pela excelência em gestão, qualidade e segurança do paciente.',
   },
   {
     icon: Users,
-    title: 'Corpo Docente Especializado',
-    description: 'Nossos professores são profissionais que atuam diretamente em gestão da qualidade e segurança do paciente na BP. Eles trazem para a sala de aula a experiência prática, os desafios reais e as soluções inovadoras do dia a dia.',
+    title: 'Corpo docente especializado',
+    description: 'Nossos professores são profissionais qualificados da Faculdade da BP - A Beneficência Portuguesa de São Paulo que atuam diretamente em gestão da qualidade e segurança do paciente. Eles trazem para a sala de aula a experiência prática, os desafios reais e as soluções inovadoras do dia a dia.',
   },
   {
     icon: BrainCog,
-    title: 'Visão Integrada de Gestão',
+    title: 'Visão integrada de gestão',
     description: 'Nossa abordagem integra gestão, qualidade, segurança do paciente e ESG, preparando você para atuar de forma estratégica e inovadora, com impacto direto nos resultados e na experiência dos pacientes.',
   },
   {
     icon: Award,
-    title: 'Reconhecimento no Mercado',
-    description: 'A pós-graduação da BP é reconhecida pelo MEC e valorizada no mercado de trabalho. Diferencie-se como líder estratégico em uma das áreas mais demandadas da gestão em saúde.',
+    title: 'Reconhecimento no mercado',
+    description: 'A pós-graduação da Faculdade BP é reconhecida pelo MEC e valorizada no mercado de trabalho. Diferencie-se como líder estratégico em uma das áreas mais demandadas da gestão em saúde.',
   },
 ];
 
@@ -29,8 +29,8 @@ const TrustSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-light text-foreground">
-            Por Que Escolher a{' '}
-            <span className="text-secondary font-semibold">Pós-Graduação BP</span>
+            Por que escolher a{' '}
+            <span className="text-secondary font-semibold">Faculdade BP</span>
           </h2>
         </div>
 
