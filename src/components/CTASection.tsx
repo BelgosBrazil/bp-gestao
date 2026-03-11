@@ -19,7 +19,7 @@ const CTASection = () => {
             <div className="bg-primary-foreground/10 rounded-xl p-6 backdrop-blur-sm">
               <Calendar className="w-8 h-8 text-primary-foreground mx-auto mb-3" />
               <h4 className="font-bold text-primary-foreground mb-1">Período</h4>
-              <p className="text-primary-foreground/80">02/03/2026 a 24/03/2027</p>
+              <p className="text-primary-foreground/80">06/03/2026 a 24/03/2027</p>
             </div>
             <div className="bg-primary-foreground/10 rounded-xl p-6 backdrop-blur-sm">
               <CreditCard className="w-8 h-8 text-primary-foreground mx-auto mb-3" />
