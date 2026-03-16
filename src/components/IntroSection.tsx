@@ -3,21 +3,25 @@ import { Clock, GraduationCap, Target, Award } from 'lucide-react';
 const features = [
   {
     icon: Clock,
+    key: '360 horas',
     label: '360 horas',
     description: 'Carga horária completa',
   },
   {
     icon: GraduationCap,
-    label: '100% Online',
+    key: '100% Online',
+    label: <>100% <em>Online</em></>,
     description: 'Modalidade EAD',
   },
   {
     icon: Target,
+    key: 'Foco em liderança',
     label: 'Foco em liderança',
     description: 'Gestão estratégica',
   },
   {
     icon: Award,
+    key: 'Excelência em saúde',
     label: 'Excelência em saúde',
     description: 'Faculdade BP',
   },
@@ -57,7 +61,7 @@ const IntroSection = () => {
           {/* Features Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
             {features.map((feature) => (
-              <div key={feature.label} className="text-center p-4">
+              <div key={feature.key} className="text-center p-4">
                 <div className="w-14 h-14 mx-auto mb-3 rounded-full bg-primary/10 flex items-center justify-center">
                   <feature.icon className="w-7 h-7 text-primary" />
                 </div>

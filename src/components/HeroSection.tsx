@@ -40,7 +40,7 @@ const HeroSection = () => {
           {/* Course Quick Info */}
           <div className="mt-12 flex flex-wrap justify-center gap-6 text-white/90 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <div className="flex items-center gap-2">
-              <span className="font-semibold">Modalidade:</span> Online (EAD)
+              <span className="font-semibold">Modalidade:</span> <em>Online</em> (EAD)
             </div>
             <div className="flex items-center gap-2">
               <span className="font-semibold">Duração:</span> 360 horas

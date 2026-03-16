@@ -10,8 +10,8 @@ const CTASection = () => {
           </h2>
 
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-10 leading-relaxed">
-            Torne-se um líder estratégico em gestão da qualidade e segurança do paciente. 
-            Inscreva-se agora na Pós-Graduação em Gestão da Qualidade e Segurança do Paciente da BP.
+            Torne-se um(a) líder estratégico(a) em gestão da qualidade e segurança do paciente. 
+            Inscreva-se agora na Pós-Graduação em Gestão da Qualidade e Segurança do Paciente da Faculdade BP.
           </p>
 
           {/* Investment Details */}
